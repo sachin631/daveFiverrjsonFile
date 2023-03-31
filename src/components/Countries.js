@@ -4,7 +4,7 @@ import country from "../countries.json";
 const Countries = () => {
   const [name,setName]=useState();
   const [id,setId]=useState();
-  const [toggle,setToggle]=useState(true);
+  const [toggle,setToggle]=useState(false);
   
 
   const idGainer = (country) => {
